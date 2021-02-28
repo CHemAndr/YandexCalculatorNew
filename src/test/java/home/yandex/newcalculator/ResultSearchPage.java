@@ -25,141 +25,139 @@ public class ResultSearchPage {
 
     //Кнопка x в степени y
     @FindBy(xpath = "//span[text() = 'x']/parent::button")
-    public WebElement buttonXpY;
+    private WebElement buttonXpY;
 
     //Кнопка x!
     @FindBy(xpath = "//span[text()='x!']/parent::button")
-    public WebElement buttonXFact;
+    private WebElement buttonXFact;
 
     //Кнопка +-
     @FindBy(xpath = "//span[text()='±']/parent::button")
-    public WebElement buttonPlusMinus;
+    private WebElement buttonPlusMinus;
 
     //Кнопка C
     @FindBy(xpath = "//span[text()='C']/parent::button")
-    public WebElement buttonC;
+    private WebElement buttonC;
 
     //Кнопка ()
     @FindBy(xpath = "//span[text()='( )']/parent::button")
-    public WebElement buttonBracket;
+    private WebElement buttonBracket;
 
     //Кнопка %
     @FindBy(xpath = "//span[text()='%']/parent::button")
-    public WebElement buttonPercentage;
+    private WebElement buttonPercentage;
 
     //Кнопка ÷
     @FindBy(xpath = "//span[text()='÷']/parent::button")
-    public WebElement buttonDivide;
+    private WebElement buttonDivide;
 
     //Кнопка asin
     @FindBy(xpath = "//span[text()='asin']/parent::button")
-    public WebElement buttonAsin;
+    private WebElement buttonAsin;
 
     //Кнопка sin
     @FindBy(xpath = "//span[text()='sin']/parent::button")
-    public WebElement buttonSin;
+    private WebElement buttonSin;
 
     //Кнопка 1/x
     @FindBy(xpath = "//span[text()='1/x']/parent::button")
-    public WebElement buttonInverse;
+    private WebElement buttonInverse;
 
     //Кнопка 7
     @FindBy(xpath = "//span[text()='7']/parent::button")
-    public WebElement buttonSeven;
+    private WebElement buttonSeven;
 
     //Кнопка 8
     @FindBy(xpath = "//span[text()='8']/parent::button")
-    public WebElement buttonEight;
+    private WebElement buttonEight;
 
     //Кнопка 9
     @FindBy(xpath = "//span[text()='9']/parent::button")
-    public WebElement buttonNine;
+    private WebElement buttonNine;
 
     //Кнопка × (умножить)
     @FindBy(xpath = "//span[text()='×']/parent::button")
-    public WebElement buttonMultiplay;
+    private WebElement buttonMultiplay;
 
     //Кнопка acos
     @FindBy(xpath = "//span[text()='acos']/parent::button")
-    public WebElement buttonAcos;
+    private WebElement buttonAcos;
 
     //Кнопка cos
     @FindBy(xpath = "//span[text()='cos']/parent::button")
-    public WebElement buttonCos;
+    private WebElement buttonCos;
 
     //Кнопка √
     @FindBy(xpath = "//span[text()='√']/parent::button")
-    public WebElement buttonSqrt;
+    private WebElement buttonSqrt;
 
     //Кнопка 4
     @FindBy(xpath = "//span[text()='4']/parent::button")
-    public WebElement buttonFour;
+    private WebElement buttonFour;
 
     //Кнопка 5
     @FindBy(xpath = "//span[text()='5']/parent::button")
-    public WebElement buttonFive;
+    private WebElement buttonFive;
 
     //Кнопка 6
     @FindBy(xpath = "//span[text()='6']/parent::button")
-    public WebElement buttonSix;
+    private WebElement buttonSix;
 
     //Кнопка − (минус)
     @FindBy(xpath = "//span[text()='−']/parent::button")
-    public WebElement buttonMinus;
+    private WebElement buttonMinus;
 
     //Кнопка atan
     @FindBy(xpath = "//span[text()='atan']/parent::button")
-    public WebElement buttonAtan;
+    private WebElement buttonAtan;
 
     //Кнопка tan
     @FindBy(xpath = "//span[text()='tan']/parent::button")
-    public WebElement buttonTan;
+    private WebElement buttonTan;
 
     //Кнопка ln
     @FindBy(xpath = "//span[text()='ln']/parent::button")
-    public WebElement buttonLn;
+    private WebElement buttonLn;
 
     //Кнопка 1
     @FindBy(xpath = "//span[text()='1']/parent::button")
-    public WebElement buttonOne;
+    private WebElement buttonOne;
 
     //Кнопка 2
     @FindBy(xpath = "//span[text()='2']/parent::button")
-    public WebElement buttonTwo;
+    private WebElement buttonTwo;
 
     //Кнопка 3
     @FindBy(xpath = "//span[text()='3']/parent::button")
-    public WebElement buttonThree;
+    private WebElement buttonThree;
 
     //Кнопка +
     @FindBy(xpath = "//span[text()='+']/parent::button")
-    public WebElement buttonPlus;
+    private WebElement buttonPlus;
 
     //Кнопка lg
     @FindBy(xpath = "//span[text()='lg']/parent::button")
-    public WebElement buttonLg;
+    private WebElement buttonLg;
 
     //Кнопка π
     @FindBy(xpath = "//span[text()='π']/parent::button")
-    public WebElement buttonPi;
+    private WebElement buttonPi;
 
     //Кнопка e
     @FindBy(xpath = "//span[text()='e']/parent::button")
-    public WebElement buttonE;
+    private WebElement buttonE;
 
     //Кнопка 0
     @FindBy(xpath = "//span[text()='0']/parent::button")
-    public WebElement buttonZero;
+    private WebElement buttonZero;
 
     //Кнопка ,
     @FindBy(xpath = "//span[text() = ',']/parent::button")
-    public WebElement buttonComma;
+    private WebElement buttonComma;
 
     //Кнопка =
     @FindBy(xpath = "//span[text() = '=']/parent::button")
-    public WebElement buttonEqually;
-
-
+    private WebElement buttonEqually;
 
     //======================методы работы с элементами ================================
 

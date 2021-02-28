@@ -22,11 +22,11 @@ public class SearchYandexPage {
 
     //Строка поиска в Яндексе
     @FindBy(id = "text")
-    public WebElement searchString;
+    private WebElement searchString;
 
     //Кнопка "Найти"
     @FindBy(xpath = "//button[text() = 'Найти']")
-    public WebElement searchButton;
+    private WebElement searchButton;
 
 
 
