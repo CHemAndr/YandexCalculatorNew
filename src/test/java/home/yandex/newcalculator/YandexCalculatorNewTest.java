@@ -38,7 +38,7 @@ public class YandexCalculatorNewTest {
 
     @AfterAll
     public static void finished() {
-        //driver.close();
+        driver.close();
     }
 
     @Test
@@ -50,9 +50,9 @@ public class YandexCalculatorNewTest {
                          .buttonFourClick()
                          .buttonSqrtClick()
                          .buttonEquallyClick();
-         (new WebDriverWait(driver,5))
-               .until(ExpectedConditions
-               .attributeContains(resultSearchPage.calculationResult,"innerHTML","12"));
+         //(new WebDriverWait(driver,5))
+         //      .until(ExpectedConditions
+         //      .attributeContains(resultSearchPage.calculationResult,"innerHTML","12"));
         assertThat("Не работает квадратный корень", "12",equalTo(resultSearchPage.getCalculationResult()));
         System.out.println("Тест SQRT стоп");
     }
@@ -66,9 +66,9 @@ public class YandexCalculatorNewTest {
                         .buttonDivideClick()
                         .buttonTwoClick()
                         .buttonEquallyClick();
-        (new WebDriverWait(driver,5))
-                .until(ExpectedConditions
-                .attributeContains(resultSearchPage.calculationResult,"innerHTML","0,99962421685"));
+        //(new WebDriverWait(driver,5))
+        //        .until(ExpectedConditions
+        //        .attributeContains(resultSearchPage.calculationResult,"innerHTML","0,99962421685"));
         assertThat("Не работает функция COS","0",equalTo(resultSearchPage.getCalculationResult()));
         System.out.println("Тест COS стоп");
     }
@@ -85,9 +85,9 @@ public class YandexCalculatorNewTest {
                         .buttonZeroClick()
                         .buttonZeroClick()
                         .buttonEquallyClick();
-        (new WebDriverWait(driver,5))
-                .until(ExpectedConditions
-                .attributeContains(resultSearchPage.calculationResult,"innerHTML","150"));
+        //(new WebDriverWait(driver,5))
+        //        .until(ExpectedConditions
+        //        .attributeContains(resultSearchPage.calculationResult,"innerHTML","150"));
         assertThat("Не работает умножение","150",equalTo(resultSearchPage.getCalculationResult()));
         System.out.println("Тест умножения стоп");
     }
